@@ -118,7 +118,7 @@ const App = () => {
     if (file && file.type.startsWith('image/')) {
       handleImage(file)
     }
-  }
+  }//GitTest
 
   const handleClick = () => {
     inputRef.current.click()
