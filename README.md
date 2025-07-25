@@ -1,8 +1,9 @@
-# React + Vite
+# Conversor de imagem em ASCII
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto React permite o upload (ou drag & drop) de imagens e a conversão instantânea em caracteres ASCII com menu de controles para ajustar largura, altura de linha, tamanho da fonte e inversão da coloração.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##🚀 Tecnologias utilizadas
+React.js
+Material UI (MUI)
+Lucide Icons
+TypeAnimations
