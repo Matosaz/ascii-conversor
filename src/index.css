@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+body {
+  margin: 0 auto;
+  place-items: center;
+  min-width: 320px;
+  font-family: 'Source Code Pro';
+  color: rgb(240, 240, 240);
+  min-height: 100vh;
+}
+
+.BoxUpload {
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto;
+  margin-top: -20px;
+  align-content: center;
+  border: 2px dashed #9c9c9c;
+  max-width: 500px;
+  height: 200px;
+  background-color: #9c9c9c5d;
+  border-radius: 40px;
+}
+
+.Controls .Sliders {
+  color: #4caf50;
+}
+
+.Controls {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  transform: translate(-50%, -50%);
+  top: 18%;
+  left: 50%;
+  margin-left: 0%;
+  margin-bottom: 20px;
+}
+
+.stack {
+  position: absolute;
+  top: 96.8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CopiedButton,
+.ResetButton {
+  padding: 5px 10px !important;
+
+  border-radius: 100px !important;
+  transition: transform 0.2s ease !important;
+}
+
+.CopiedButton:hover,
+.ResetButton:hover {
+  transform: translateY(-2px) !important;
+}
+
+.Image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+.ImageContainer {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+  max-width: 750px;
+  height: 650px;
+  margin-top: 30px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px rgb(22, 22, 22, 0.4);
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(112, 112, 112, 0.5);
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: border-color 0.3s ease;
+}
+
+.ImageContainer:hover {
+  border-color: #94c596;
+}
+
+h1 {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  text-align: center;
+  max-width: 700px;
+}
