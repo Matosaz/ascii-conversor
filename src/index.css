@@ -17,7 +17,6 @@ body {
   margin-top: -20px;
   align-content: center;
   border: 2px dashed #9c9c9c;
-  max-width: 500px;
   height: 200px;
   background-color: #9c9c9c5d;
   border-radius: 40px;
@@ -69,7 +68,9 @@ body {
 
 .ImageContainer {
   width: 100%;
-  overflow: hidden;
+  overflow:auto;
+  scrollbar-color: transparent;
+  scroll-behavior:smooth;
   border: 1px solid #d9d9d9;
   max-width: 750px;
   height: 650px;
