@@ -1,8 +1,13 @@
-# React + Vite
+# Conversor de Imagem em ASCII
+Este projeto simples permite que o usuário efetue o upload (ou drag & drop) de imagens para realizar a conversão instantânea em caracteres ASCII, dispondo de um menu de controles para ajustar largura, altura de linha, tamanho da fonte e inversão da coloração da imagem.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5f32cf68-917f-4b38-beaa-9c39170eb700" />
 
-Currently, two official plugins are available:
+### Site: https://asciiconvert.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
+- React.js
+- Material UI (MUI)
+- Lucide Icons
+- TypeAnimations
+- JavaScript
